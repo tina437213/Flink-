@@ -1,4 +1,4 @@
-# Flink流式计算简介
+# 第1章 Flink流式计算简介
 
 
 
@@ -8,7 +8,7 @@
 
 ### 事务型应用（OLTP=Online Transaction Processing） <a href="#nhrg1" id="nhrg1"></a>
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (7).png>)
 
 特点：
 
@@ -25,7 +25,7 @@
 
 ### 分析型应用（OLAP=Online Analytical Processing） <a href="#ckylj" id="ckylj"></a>
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (8).png>)
 
 事务型应用和分析型应用一般是分开建设的：
 
@@ -41,7 +41,7 @@
 
 ### **无状态流计算**
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (4).png>)
 
 持续的接收和处理消息，同时也不断的发送处理后的消息。
 
