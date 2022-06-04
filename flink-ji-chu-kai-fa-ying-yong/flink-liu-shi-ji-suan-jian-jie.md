@@ -10,7 +10,7 @@
 
 #### 事务型应用（OLTP） <a href="#nhrg1" id="nhrg1"></a>
 
-![](https://cdn.nlark.com/yuque/0/2022/png/2494971/1643510481396-6d8a137e-2c40-446d-a16e-8bd088d2b189.png)
+![](../.gitbook/assets/image.png)
 
 特点：
 
