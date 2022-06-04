@@ -4,13 +4,11 @@
 
 在此系列文章中，我们将深入研究如何构建健壮的、有状态的流处理应用程序。但首先，我们需要了解Flink应用程序的基础知识。
 
-## 有状态流处理 <a href="#n6jrw" id="n6jrw"></a>
+## 传统系统应用 <a href="#cm1gj" id="cm1gj"></a>
 
-### 传统系统应用 <a href="#cm1gj" id="cm1gj"></a>
+### 事务型应用（OLTP=Online Transaction Processing） <a href="#nhrg1" id="nhrg1"></a>
 
-#### 事务型应用（OLTP） <a href="#nhrg1" id="nhrg1"></a>
-
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (2).png>)
 
 特点：
 
@@ -25,12 +23,9 @@
 * 客户关系管理系统CRM
 * Web应用
 
-\
+### 分析型应用（OLAP=Online Analytical Processing） <a href="#ckylj" id="ckylj"></a>
 
-
-#### 分析型应用（OLAP） <a href="#ckylj" id="ckylj"></a>
-
-![](https://cdn.nlark.com/yuque/0/2022/png/2494971/1643510744396-2fc7131a-ab8c-4ba1-b1f2-c37959115899.png)
+![](<../.gitbook/assets/image (3).png>)
 
 事务型应用和分析型应用一般是分开建设的：
 
@@ -42,11 +37,11 @@
 * 报表
 * 即席查询
 
-#### 流式应用 <a href="#spf0w" id="spf0w"></a>
+## 应用 <a href="#spf0w" id="spf0w"></a>
 
-**无状态流计算**
+### **无状态流计算**
 
-![](https://cdn.nlark.com/yuque/0/2022/png/2494971/1643510974584-57e459e9-ac90-42e0-b068-e38252bc79ec.png)
+![](<../.gitbook/assets/image (1).png>)
 
 持续的接收和处理消息，同时也不断的发送处理后的消息。
 
