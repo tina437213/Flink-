@@ -25,7 +25,7 @@
 
 ### 分析型应用（OLAP=Online Analytical Processing） <a href="#ckylj" id="ckylj"></a>
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (8) (1).png>)
 
 事务型应用和分析型应用一般是分开建设的：
 
