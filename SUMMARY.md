@@ -8,6 +8,7 @@
     * [1.3 基础DataStream API](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-1-zhang-flink-liu-shi-ji-suan-jian-jie/1.3-ji-chu-datastream-api.md)
     * [1.4 基础练习](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-1-zhang-flink-liu-shi-ji-suan-jian-jie/1.4-ji-chu-lian-xi/README.md)
       * [1.4.1 练习：过滤流(车程清理)](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-1-zhang-flink-liu-shi-ji-suan-jian-jie/1.4-ji-chu-lian-xi/1.4.1-lian-xi-guo-lv-liu-che-cheng-qing-li.md)
+      * [1.4.2 如何编写测试类](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-1-zhang-flink-liu-shi-ji-suan-jian-jie/1.4-ji-chu-lian-xi/1.4.2-ru-he-bian-xie-ce-shi-lei.md)
   * [第2章 状态](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-2-zhang-zhuang-tai/README.md)
     * [2.1 什么是状态](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-2-zhang-zhuang-tai/2.1-shi-mo-shi-zhuang-tai.md)
     * [2.2 Flink状态的基础](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-2-zhang-zhuang-tai/2.2-flink-zhuang-tai-de-ji-chu.md)
