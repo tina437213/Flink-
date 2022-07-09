@@ -24,7 +24,7 @@ Org.gradle.project t.Enable_Scala=True
 
 ### 工程结构
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../../.gitbook/assets/image (8).png>)
 
 * 文件夹部分：前3个是公共的，后面每个文件夹是一个主题练习
   * common：example、exercise/common(主要是数据类型、生成数据的工具、通用utils（生成数据，地理位置工具）)、公共test
@@ -53,7 +53,7 @@ Org.apache.flink.training.examples.ridecount.RideCountExample
 
 ### 一个主题练习的结构
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../../.gitbook/assets/image (3).png>)
 
 * src下一共有3层，
   * main: 代码框架已经写好，但是跟该练习相关的核心实现部分需要读者实现
@@ -63,7 +63,15 @@ Org.apache.flink.training.examples.ridecount.RideCountExample
 
 ## 数据集介绍
 
+练习中使用数据[生成器(generators)](https://github.com/ververica/flink-training/blob/master/common/src/main/java/org/apache/flink/training/exercises/common/sources)产生模拟的事件流。 该数据的灵感来自[纽约市出租车与豪华礼车管理局(New York City Taxi & Limousine Commission)](http://www.nyc.gov/html/tlc/html/home/home.shtml) 的公开[数据集](https://uofi.app.box.com/NYCtaxidata)中有关纽约市出租车的车程情况。
+
 ## TaxiRide data
+
+出租车数据集包含有关纽约市个人出租车的车程信息。
+
+每次乘坐出租车都有两个事件: START 事件(其中 isStart 为 TRUE)和 END 事件(其中 isStart 为 FALSE)。
+
+每个事件都由十一个字段组成：
 
 ```
 rideId         : Long      // a unique id for each ride
@@ -79,21 +87,19 @@ endLat         : Float     // the latitude of the ride end location
 passengerCnt   : Short     // number of passengers on the ride
 ```
 
-这个出租车数据是由模拟器生成的。
-
-每次乘坐出租车都有两个事件: START 事件(其中 isStart 为 TRUE)和 END 事件(其中 isStart 为 FALSE)。
-
 ## TaxiFare data
 
 ```
-rideId         : Long      // a unique id for each ride
-taxiId         : Long      // a unique id for each taxi
-driverId       : Long      // a unique id for each driver
-startTime      : Instant   // the start time of a ride
-paymentType    : String    // CASH or CARD (for cash or card payments)
-tip            : Float     // tip for this ride
-tolls          : Float     // tolls for this ride
-totalFare      : Float     // total fare collected
+rideId         : Long      // 每次车程的唯一id
+taxiId         : Long      // 每一辆出租车的唯一id
+driverId       : Long      // 每一位司机的唯一id
+isStart        : Boolean   // 行程开始事件为 TRUE， 行程结束事件为 FALSE
+eventTime      : Instant   // 事件的时间戳
+startLon       : Float     // 车程开始位置的经度
+startLat       : Float     // 车程开始位置的维度
+endLon         : Float     // 车程结束位置的经度
+endLat         : Float     // 车程结束位置的维度
+passengerCnt   : Short     // 乘车人数
 ```
 
 每个 TaxiRide 事件都有一个相匹配的 TaxiFare 事件和该乘坐的支付数据。TaxiFare 记录包含与匹配的 TaxiRide 记录相同的 rideId、 taxId 和 driverId 值。
