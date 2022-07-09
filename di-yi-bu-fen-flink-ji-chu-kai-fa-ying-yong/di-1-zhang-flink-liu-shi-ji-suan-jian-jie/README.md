@@ -8,7 +8,7 @@
 
 ### 事务型应用（OLTP=Online Transaction Processing） <a href="#nhrg1" id="nhrg1"></a>
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7) (1).png>)
 
 特点：
 
@@ -25,7 +25,7 @@
 
 ### 分析型应用（OLAP=Online Analytical Processing） <a href="#ckylj" id="ckylj"></a>
 
-![](<../../.gitbook/assets/image (8) (1).png>)
+![](<../../.gitbook/assets/image (8) (1) (1).png>)
 
 事务型应用和分析型应用一般是分开建设的：
 
