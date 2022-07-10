@@ -33,14 +33,6 @@ Org.gradle.project t.Enable_Scala=True
   * 下面4个文件夹分别代表一个主题练习，后面分别讲解。
 * 下面文件部分为工程自带文件及gradle属性文件，按需编辑即可。
 
-{% hint style="info" %}
-重要说明：为方便部分读者使用，本人维护一个配套的工程，详细链接：TODO。
-
-1、将官方工程中的项目管理工具由gradle替换成maven
-
-2、仅提供java版本代码，不提供scala代码实现。
-{% endhint %}
-
 ### 尝试运行工程
 
 通过运行测试来验证它是否正常工作，例如，
@@ -130,3 +122,15 @@ private static class NYCFilter implements FilterFunction<TaxiRide> {
 对于行程清洗练习，单元测试测试filter功能，而集成测试测试整个数据处理管道。
 
 这个项目中的测试用于测试每个Exercise类，如果一个练习抛出 MissingSolutionException（不改代码的情况下），那么它们会吞下这个异常，并将测试应用到相应的 Solution 类。
+
+
+
+{% hint style="info" %}
+重要说明：为方便部分读者使用，本人维护一个配套的工程，详细链接：TODO。
+
+1、将官方工程中的项目管理工具由gradle替换成maven。
+
+2、仅提供java版本代码，不提供scala代码实现。
+
+3、仅提供main下面的解决方案，通过注释将//throw new MissingSolutionException()；这一行注掉，然后填上我们自己要实现的内容；不另外包含solution目录（相当于是将main和solution合并）。
+{% endhint %}
