@@ -13,7 +13,7 @@
     * [2.1 什么是状态](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-2-zhang-zhuang-tai/2.1-shi-mo-shi-zhuang-tai.md)
     * [2.2 Flink状态的基础](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-2-zhang-zhuang-tai/2.2-flink-zhuang-tai-de-ji-chu/README.md)
       * [2.2.1 keyed state](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-2-zhang-zhuang-tai/2.2-flink-zhuang-tai-de-ji-chu/2.2.1-keyed-state.md)
-      * [2.2.2 operate state](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-2-zhang-zhuang-tai/2.2-flink-zhuang-tai-de-ji-chu/2.2.2-operate-state.md)
+      * [2.2.2 operator state](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-2-zhang-zhuang-tai/2.2-flink-zhuang-tai-de-ji-chu/2.2.2-operator-state.md)
       * [2.2.3 keyed state vs operate state](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-2-zhang-zhuang-tai/2.2-flink-zhuang-tai-de-ji-chu/2.2.3-keyed-state-vs-operate-state.md)
       * [2.2.4 状态后端](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-2-zhang-zhuang-tai/2.2-flink-zhuang-tai-de-ji-chu/2.2.4-zhuang-tai-hou-duan.md)
       * [2.2.5 状态TTL](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-2-zhang-zhuang-tai/2.2-flink-zhuang-tai-de-ji-chu/2.2.5-zhuang-tai-ttl.md)

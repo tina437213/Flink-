@@ -8,7 +8,7 @@
 
 ### 事务型应用（OLTP=Online Transaction Processing） <a href="#nhrg1" id="nhrg1"></a>
 
-![](<../../.gitbook/assets/image (7) (1).png>)
+![](<../../.gitbook/assets/image (7) (1) (1).png>)
 
 特点：
 
