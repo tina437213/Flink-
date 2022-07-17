@@ -24,7 +24,7 @@ Org.gradle.project t.Enable_Scala=True
 
 ### 工程结构
 
-![](<../../../.gitbook/assets/image (8).png>)
+![](<../../../.gitbook/assets/image (8) (1).png>)
 
 * 文件夹部分：前3个是公共的，后面每个文件夹是一个主题练习
   * common：example、exercise/common(主要是数据类型、生成数据的工具、通用utils（生成数据，地理位置工具）)、公共test
