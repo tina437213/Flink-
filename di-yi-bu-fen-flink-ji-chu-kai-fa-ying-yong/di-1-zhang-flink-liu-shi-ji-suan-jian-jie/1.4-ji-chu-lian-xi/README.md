@@ -45,7 +45,7 @@ Org.apache.flink.training.examples.ridecount.RideCountExample
 
 ### 一个主题练习的结构
 
-![](<../../../.gitbook/assets/image (3).png>)
+![](<../../../.gitbook/assets/image (3) (1).png>)
 
 * src下一共有3层，
   * main: 代码框架已经写好，但是跟该练习相关的核心实现部分需要读者实现
