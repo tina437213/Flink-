@@ -21,6 +21,5 @@
       * [2.2.7 状态TTL](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-2-zhang-zhuang-tai/2.2-flink-zhuang-tai-de-ji-chu/2.2.7-zhuang-tai-ttl.md)
       * [2.2.8 checkpoint](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-2-zhang-zhuang-tai/2.2-flink-zhuang-tai-de-ji-chu/2.2.8-checkpoint.md)
       * [2.2.9 Flink SQL 的 State 使用](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-2-zhang-zhuang-tai/2.2-flink-zhuang-tai-de-ji-chu/2.2.9-flink-sql-de-state-shi-yong.md)
-* [2.3 Flink Runtime](2.3-flink-runtime.md)
 * [测试页面](ce-shi-ye-mian.md)
   * [Page 1](ce-shi-ye-mian/page-1.md)
