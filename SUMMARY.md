@@ -15,6 +15,7 @@
       * [2.2.1 keyed state](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-2-zhang-zhuang-tai/2.2-flink-zhuang-tai-de-ji-chu/2.2.1-keyed-state.md)
       * [2.2.2 operator state](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-2-zhang-zhuang-tai/2.2-flink-zhuang-tai-de-ji-chu/2.2.2-operator-state.md)
       * [2.2.3 keyed state vs operator state](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-2-zhang-zhuang-tai/2.2-flink-zhuang-tai-de-ji-chu/2.2.3-keyed-state-vs-operate-state.md)
+      * [2.2.4 连接流](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-2-zhang-zhuang-tai/2.2-flink-zhuang-tai-de-ji-chu/2.2.4-lian-jie-liu.md)
       * [2.2.4 练习](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-2-zhang-zhuang-tai/2.2-flink-zhuang-tai-de-ji-chu/2.2.4-lian-xi.md)
       * [2.2.5 状态后端](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-2-zhang-zhuang-tai/2.2-flink-zhuang-tai-de-ji-chu/2.2.4-zhuang-tai-hou-duan.md)
       * [2.2.6 状态TTL](di-yi-bu-fen-flink-ji-chu-kai-fa-ying-yong/di-2-zhang-zhuang-tai/2.2-flink-zhuang-tai-de-ji-chu/2.2.5-zhuang-tai-ttl.md)
