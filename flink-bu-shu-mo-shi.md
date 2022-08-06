@@ -58,7 +58,7 @@ Session 和 per-job 模式下面，都是先将对应的 jar 在 client 进行�
 
 ### Application mode
 
-![image-20210415183337499](https://timzhouyes.github.io/img/2021-04-14-Flink%20%E9%83%A8%E7%BD%B2%E6%A8%A1%E5%BC%8F%E5%89%96%E6%9E%90/image-20210415183337499.png)
+![](.gitbook/assets/image-20210415183337499.png)
 
 在这个 mode 下面，client 只是负责命令和接收结果，从解析过程开始之后就是放在 JobManager 上面运行。可以自己去指定划分 application，每一个 application 之中都有很多 job。dependency jar 可以由 jobManager 上传到 hdfs（yarn mode），或者是打包镜像（k8s mode)。
 
@@ -74,3 +74,4 @@ Session 和 per-job 模式下面，都是先将对应的 jar 在 client 进行�
 重要：job与executue()方法对应。
 {% endhint %}
 
+生产可用的资源管理器一般是基于Yarn和K8S两种模式。
